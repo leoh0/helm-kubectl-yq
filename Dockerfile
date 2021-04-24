@@ -1,0 +1,4 @@
+ARG HELM_KUBECTL_VERSION
+FROM dtzar/helm-kubectl:${HELM_KUBECTL_VERSION}
+
+RUN apk add yq
